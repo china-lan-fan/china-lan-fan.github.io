@@ -1,0 +1,76 @@
+{
+  "scopeName": "source.fan",
+  "name": "fan",
+  "patterns": [
+    { "include": "#comments" },
+    { "include": "#strings" },
+    { "include": "#numbers" },
+    { "include": "#keywords" },
+    { "include": "#constants" }
+  ],
+  "repository": {
+    "comments": {
+      "patterns": [
+        {
+          "name": "comment.line.number-sign.fan",
+          "match": "#.*$"
+        },
+        {
+          "name": "comment.line.fan",
+          "match": "(?:^|\\s)(注释).*$"
+        }
+      ]
+    },
+    "strings": {
+      "patterns": [
+        {
+          "name": "string.quoted.double.fan",
+          "begin": "\"",
+          "end": "\"",
+          "patterns": [
+            {
+              "name": "constant.character.escape.fan",
+              "match": "\\\\."
+            }
+          ]
+        }
+      ]
+    },
+    "numbers": {
+      "patterns": [
+        {
+          "name": "constant.numeric.float.fan",
+          "match": "\\b\\d+\\.\\d+\\b"
+        },
+        {
+          "name": "constant.numeric.integer.fan",
+          "match": "\\b\\d+\\b"
+        }
+      ]
+    },
+    "keywords": {
+      "patterns": [
+        {
+          "name": "keyword.control.fan",
+          "match": "如果|那么|否则如果|否则|结束|当|循环|重复|直到|次|遍历|中的|跳出|继续|尝试|捕获|检查|导入|导出"
+        },
+        {
+          "name": "keyword.other.fan",
+          "match": "定义|变量|常量|函数|返回|模型|类|嵌入|的|为"
+        },
+        {
+          "name": "keyword.operator.fan",
+          "match": "\\+|\\-|\\*|/|%|=|==|!=|<=|>=|<|>|&&|\\|\\||!"
+        }
+      ]
+    },
+    "constants": {
+      "patterns": [
+        {
+          "name": "constant.language.fan",
+          "match": "真|假|空"
+        }
+      ]
+    }
+  }
+}
