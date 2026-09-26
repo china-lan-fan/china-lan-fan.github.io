@@ -12,7 +12,7 @@ export default defineConfig({
   lang: 'zh-CN',
   title: 'fan 语言',
   description: 'fan —— 中文脚本语言官方文档',
-  base: '/fan-doc/',
+  base: '/',
   lastUpdated: true,
   cleanUrls: true,
   markdown: {

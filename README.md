@@ -2,7 +2,7 @@
 
 中文脚本语言 [fan](https://github.com/china-lan-fan/fan) 的官方文档，使用 [VitePress](https://vitepress.dev/)（Vue 3）构建，部署在 GitHub Pages。
 
-在线阅读：<https://china-lan-fan.github.io/fan-doc/>
+在线阅读：<https://china-lan-fan.github.io/>
 
 ## 本地开发
 
