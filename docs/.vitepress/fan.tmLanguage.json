@@ -1,6 +1,6 @@
 {
   "scopeName": "source.fan",
-  "name": "fan",
+  "name": "凡",
   "patterns": [
     { "include": "#comments" },
     { "include": "#strings" },

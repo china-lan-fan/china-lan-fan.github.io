@@ -2,8 +2,8 @@
 layout: home
 
 hero:
-  name: fan
-  text: 中文脚本语言
+  name: 凡
+  text: 中文通用脚本语言
   tagline: 用中文写程序，简单、可读、参考 Go 的设计哲学
   actions:
     - theme: brand

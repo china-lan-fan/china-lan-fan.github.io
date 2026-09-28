@@ -1,6 +1,6 @@
-# fan-doc
+# 凡语言官方文档
 
-中文脚本语言 [fan](https://github.com/china-lan-fan/fan) 的官方文档，使用 [VitePress](https://vitepress.dev/)（Vue 3）构建，部署在 GitHub Pages。
+[凡语言](https://github.com/china-lan-fan/fan)是一门以中文关键字为核心的通用脚本语言。本仓库是凡语言官方文档，使用 [VitePress](https://vitepress.dev/) 构建并部署在 GitHub Pages。
 
 在线阅读：<https://china-lan-fan.github.io/>
 
@@ -8,26 +8,30 @@
 
 需要 Node.js 20+ 与 pnpm 10+。
 
-```bash
+```sh
 pnpm install
 pnpm dev
 ```
 
-## 构建
+## 构建与预览
 
-```bash
+```sh
 pnpm build
 pnpm preview
 ```
 
-推送到 `main` 分支后，GitHub Actions 会自动构建并部署到 GitHub Pages（见 `.github/workflows/deploy.yml`）。
+推送到 `main` 后，GitHub Actions 会自动构建并部署 GitHub Pages。
 
 ## 目录
 
 ```text
 docs/
-├── index.md          # 首页
-├── guide/            # 语言指南
-├── examples/         # 示例
-└── reference/        # 语法速查 / 关键字 / 内建函数
+├── index.md
+├── guide/
+├── examples/
+└── reference/
 ```
+
+## 许可证
+
+MIT

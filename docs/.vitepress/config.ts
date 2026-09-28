@@ -10,8 +10,8 @@ const fanGrammar = JSON.parse(
 
 export default defineConfig({
   lang: 'zh-CN',
-  title: 'fan 语言',
-  description: 'fan —— 中文脚本语言官方文档',
+  title: '凡语言',
+  description: '凡语言（fan）—— 中文通用脚本语言官方文档',
   base: '/',
   lastUpdated: true,
   cleanUrls: true,
