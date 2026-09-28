@@ -87,7 +87,7 @@ export default defineConfig({
       ]
     },
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/china-lan-fan' }
+      { icon: 'github', link: 'https://github.com/china-lang-fan' }
     ],
     outline: {
       level: [2, 3],

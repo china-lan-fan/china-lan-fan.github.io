@@ -7,7 +7,7 @@
 需要先安装 [Go](https://go.dev/dl/)（建议 1.26 或更高版本）。
 
 ```bash
-git clone git@github.com:china-lan-fan/fan.git
+git clone git@github.com:china-lang-fan/fan.git
 cd fan
 go build ./cmd/fan
 ```
@@ -63,8 +63,8 @@ fan help
 
 官方正在开发编辑器插件：
 
-- JetBrains 插件：<https://github.com/china-lan-fan/fan-jetbrains-plugin>
-- VS Code 插件：<https://github.com/china-lan-fan/fan-code-plugin>
+- JetBrains 插件：<https://github.com/china-lang-fan/fan-jetbrains-plugin>
+- VS Code 插件：<https://github.com/china-lang-fan/fan-code-plugin>
 
 凡语言的源文件使用 `.凡` 后缀。
 
